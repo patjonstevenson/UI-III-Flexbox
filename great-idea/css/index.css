@@ -72,22 +72,23 @@ h1, h2, h3, h4, h5 {
 }
 
 header {
-	
+	display: flex;
+	justify-content: space-evenly;
 	width: 100%;
 	text-align: justify;
 }
 
 header .logo {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
+	width: 30%;
 	right: 10%;
 }
 
 header nav {
 	display: flex;
+	justify-content: space-evenly;
 	flex-direction: row;
 	margin: 5%;
+	width: 70%;
 }
 
 nav a {
@@ -97,7 +98,11 @@ nav a {
 	flex-direction: row;
 	padding: 5px;
 	margin: 5px;
+}
 
+nav a:hover {
+	background-color: black;
+	color: white;
 }
 
 #splash {
@@ -111,7 +116,7 @@ nav a {
 
 #splash h1{
 	font-size: 5rem;
-	flex-direction: row;
+
 	text-align: center;
 }
 #splash button {
@@ -170,9 +175,8 @@ nav a {
 	border: 1px solid black;
 	color: black;
 	padding: 10px 30px;
-	margin: 10px 100px;
-	bottom: -10px;
-	position: absolute;
+	margin: 50px 100px;
+	text-align: center;
 }
 
 #bottomWrapper {
