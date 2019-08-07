@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5 {
 }
 
 header {
-	position: relative;
+	
 	width: 100%;
 	text-align: justify;
 }
@@ -80,7 +80,7 @@ header {
 header .logo {
 	display: flex;
 	flex-direction: row;
-	position: absolute;
+	justify-content: space-evenly;
 	right: 10%;
 }
 
@@ -101,6 +101,8 @@ nav a {
 }
 
 #splash {
+	display: flex;
+	justify-content: space-evenly;
 	margin: 10px;
 	width: 100%;
 	padding-bottom: 100px;
@@ -109,7 +111,6 @@ nav a {
 
 #splash h1{
 	font-size: 5rem;
-	display: flex;
 	flex-direction: row;
 	text-align: center;
 }
@@ -117,7 +118,8 @@ nav a {
 }
 
 .wrapper {
-	position: relative;
+	display: flex;
+	flex-wrap: wrap;
 	padding: 20px;
 	margin: 20px;
 	
@@ -128,19 +130,16 @@ nav a {
 }
 
 #tagline {
-	position: relative;
 }
 
 #tagline h1{
-	position: absolute;
 	top: -300px;
 }
 
 
 .sidebyside2 {
-	position: relative;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	width: 45%; /*was 47% before changed body to 80%*/
 	padding: 0px;
 	margin: 0px 13px;
@@ -149,9 +148,8 @@ nav a {
 
 
 .sidebyside3 {
-	position: relative;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	width: 29%; /*was 30% before changed body to 80%*/
 	padding: 0px;
 	margin: 20px 13px;
