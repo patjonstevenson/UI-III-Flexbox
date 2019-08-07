@@ -64,3 +64,130 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.body {
+	position: relative;
+	width: 80%;
+	margin: 5%;
+}
+
+header {
+	position: relative;
+	width: 100%;
+	text-align: justify;
+}
+
+header .logo {
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	right: 10%;
+}
+
+header nav {
+	display: flex;
+	flex-direction: row;
+	margin: 5%;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	display: flex;
+	flex-direction: row;
+	padding: 5px;
+	margin: 5px;
+
+}
+
+#splash {
+	margin: 10px;
+	width: 100%;
+	padding-bottom: 100px;
+	border-bottom: 1px solid black;
+}
+
+#splash h1{
+	font-size: 5rem;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+#splash button {
+}
+
+.wrapper {
+	position: relative;
+	padding: 20px;
+	margin: 20px;
+	
+}
+
+.wrapper img{
+	width: 100%;
+}
+
+#tagline {
+	position: relative;
+}
+
+#tagline h1{
+	position: absolute;
+	top: -300px;
+}
+
+
+.sidebyside2 {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	width: 45%; /*was 47% before changed body to 80%*/
+	padding: 0px;
+	margin: 0px 13px;
+	margin-top: 20px;
+}
+
+
+.sidebyside3 {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	width: 29%; /*was 30% before changed body to 80%*/
+	padding: 0px;
+	margin: 20px 13px;
+	margin-top: 50px;
+}
+
+.wrapper .middle-img {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.button {
+	text-decoration: none;
+	border: 1px solid black;
+	color: black;
+	padding: 10px 30px;
+	margin: 10px 100px;
+	bottom: -10px;
+	position: absolute;
+}
+
+#bottomWrapper {
+	border-bottom: 1px solid black;
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+}
+
+footer #contact {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	left: 100px;
+	margin: 100px;
+}
