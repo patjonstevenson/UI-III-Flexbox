@@ -77,16 +77,19 @@ h1, h2, h3, h4, h5 {
 /* HEADER */
 
 header {
+	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	margin-top: 5%;
+	margin-bottom: 0%;
+	padding-bottom: 2.5%;
 }
 
 header nav {
 	display: flex;
 	width: 70%;
-	justify-content: space-evenly;
+	justify-content: space-between;
 }
 
 nav a {
@@ -106,7 +109,7 @@ nav a:hover {
 	display: flex;
 	justify-content: space-evenly;
 	width: 100%;
-	padding: 10% 0%;
+	padding: 5% 0% 10% 0%;
 	border-bottom: 1px solid black;
 }
 
@@ -184,5 +187,6 @@ footer {
 /* SERVICE PAGE STYLING */
 
 .services-header-img {
-	width: 100%
+	width: 100%;
+	margin: 0% 0% 5% 0%;
 }
