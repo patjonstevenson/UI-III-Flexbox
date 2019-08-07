@@ -74,6 +74,8 @@ h1, h2, h3, h4, h5 {
 	align-items: center;
 }
 
+/* HEADER */
+
 header {
 	display: flex;
 	align-items: center;
@@ -97,6 +99,8 @@ nav a:hover {
 	background: black;
 	color: white;
 }
+
+/* SPLASH */
 
 #splash {
 	display: flex;
@@ -124,3 +128,30 @@ nav a:hover {
 	align-items: center;
 }
 
+/* MIDDLE CONTENT */
+
+.wrapper {
+	margin: 5% 0%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.sidebyside2 {
+	width: 48%;
+}
+
+.sidebyside3 {
+	width: 32%;
+}
+
+.middle-img {
+	margin: 2.5% 0%;
+}
+
+
+/* FOOTER */
+
+footer {
+	display: flex;
+
+}
