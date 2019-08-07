@@ -132,6 +132,7 @@ nav a:hover {
 /* MIDDLE CONTENT */
 
 .middle {
+	width: 100%;
 	border-bottom: 1px solid black;
 	margin-bottom: 5%;
 }
