@@ -129,6 +129,10 @@ nav a:hover {
 	align-items: center;
 }
 
+#tagline h1 {
+	text-align: center;
+}
+
 /* MIDDLE CONTENT */
 
 .middle {
@@ -174,4 +178,11 @@ footer {
 	text-align: center;
 	margin: 5%;
 	width: 100%;
+}
+
+
+/* SERVICE PAGE STYLING */
+
+.services-header-img {
+	width: 100%
 }
